@@ -1,5 +1,5 @@
 import './App.css';
-import high from './Components/high';
+import HOC from './Components/high';
 import ProductList from './Components/product';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 <pre>
 
 <strong>Syntax :</strong> const EnhancedComponent = higherOrderComponent(WrappedComponent);</pre>
-       <high/>
+       <HOC/>
        <ProductList/>
     </div>
   );
