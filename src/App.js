@@ -1,6 +1,7 @@
 import './App.css';
 import HOC from './Components/high';
 import ProductList from './Components/product';
+import Purecomponents from './Components/Purecomponents';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 <strong>Syntax :</strong> const EnhancedComponent = higherOrderComponent(WrappedComponent);</pre>
        <HOC/>
        <ProductList/>
+       <Purecomponents/>
     </div>
   );
 }
